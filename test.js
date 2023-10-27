@@ -1,19 +1,26 @@
-"use strict";//treat all JS code as newer version 
+//conversion and operations 
 
-//alert("hello"); //we are using node js not browser 
+// let score = "33abc"
+// let score1 = null
+// console.log(typeof(score))
 
-//console.log(3+3)   =>//code readability should be maintained 
+// let valueInNumber = Number(score) //n is capital  //conversion of datatype into NUMber
+// console.log(typeof(valueInNumber))
+// console.log((valueInNumber)) // NaN -> Not a Number 
+// console.log(Number(score1))
+//"33" => 33
+//"33abc" => NaN
+//true => 1; false => 0
+//string => NaN 
 
-//number => 2 to power 53
-//big int
-//striing => " "
-//boolean => true or false 
-//null => standalone value 
-//undefined =>    eg- let state; //it is undefined 
-//symbol => unique 
+// let isLoggedIn = "a"
+// let booleanIsLoggedIn=Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
 
+//1 => true ; 0=> false
+//"" => false 
+//"aniket"  => true 
 
-//object
-
-console.log(typeof(null));  //null is an object type
-console.log(typeof undefined); //this is also a way to write typeof
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(typeof stringNumber)
