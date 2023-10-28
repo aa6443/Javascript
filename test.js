@@ -50,15 +50,29 @@ let str3= str1+str2
 // console.log(+true);
 // console.log(+"");
 
-let num1,num2,num3 
-num1 = num2 = num3 = 2 + 2
+// let num1,num2,num3 
+// num1 = num2 = num3 = 2 + 2
 
-let gameCounter = 100 
-gameCounter++;
-++gameCounter;
-console.log(gameCounter);
+// let gameCounter = 100 
+// gameCounter++;
+// ++gameCounter;
+// console.log(gameCounter);
 
+// console.log("2">1);
+// console.log("02">1);
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>=0);
+// console.log(null<=0);  //null converted to 0
+//The reason is that an equality check == and comparisons > < >= <= work differently 
+//comparisons convert null to a number treating it as 0
+//that is why null >= 0 is true and (1) null >0 is false 
 
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
 
+// === strict check 
+console.log("2" === 2);
 
 
