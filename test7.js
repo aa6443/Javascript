@@ -26,3 +26,14 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2 , score3 )); //putting all the values and creating an array from individual element 
+
+//Araay.from  method
+console.log(Array.from('foo'));
+// Expected output: Array ["f", "o", "o"]
+
+console.log(Array.from([1, 2, 3], (x) => x + x));
+// Expected output: Array [2, 4, 6]
+
+//Array.of method 
+console.log(Array.of('foo', 2, 'bar', true));
+// Expected output: Array ["foo", 2, "bar", true]
